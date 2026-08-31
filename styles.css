@@ -1373,4 +1373,20 @@ body.modal-lock {
     animation: none;
   }
 }
-\n\n/* Native Google Forms bridge — real browser form POST, not fetch */\n.google-native-form {\n  margin: 0;\n}\n\n.google-submit-frame {\n  position: fixed;\n  width: 1px;\n  height: 1px;\n  border: 0;\n  opacity: 0;\n  pointer-events: none;\n  left: -9999px;\n  top: -9999px;\n}\n
+
+
+/* Native Google Forms bridge — real browser form POST, not fetch */
+.google-native-form {
+  margin: 0;
+}
+
+.google-submit-frame {
+  position: fixed;
+  width: 1px;
+  height: 1px;
+  border: 0;
+  opacity: 0;
+  pointer-events: none;
+  left: -9999px;
+  top: -9999px;
+}
